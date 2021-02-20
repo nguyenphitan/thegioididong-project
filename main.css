@@ -30,7 +30,8 @@ button {
 /* HEADER */
 
 .header {
-    width: 1200px;
+    width: 1205px;
+    /* width: 1519.2px; */
     display: flex;
     background-color: black;
     color: #fff;
@@ -182,6 +183,7 @@ button {
     text-align: center;
     line-height: 32px;
     color: #fff;
+    margin: 0 15px;
 }
 
 .other-item:hover {
@@ -210,3 +212,179 @@ button {
     padding: 0 10px;
     /* border-left: 1px solid #232323; */
 }
+
+/* after-header */
+
+.after {
+    background-color: #FED101;
+    /* width: 100%; */
+    /* width: 1519.2px; */
+}
+
+.after-header {
+    display: flex;
+    font-size: 15px;
+    width: 1215px;
+    height: 40px;
+    margin: 0 150px;
+    background-color: #FED101;
+}
+
+.after-header a {
+    display: flex;
+    height: 40px;
+    /* margin: 12px 0; */
+    padding: 0 12px;
+    border: 0;
+    color: #000;
+    /* text-align: center; */
+    vertical-align: middle;
+    flex-wrap: nowrap;
+}
+
+.after-header a:hover {
+    background-color: #fff;
+}
+
+.after-header p {
+    margin: 12px 0;
+}
+
+.after-header figure {
+    margin: 10px 5px 0 0;
+}
+
+.after-item1 {
+    width: 81.6px;
+}
+
+.after-item2 {
+    width: 72px;
+}
+
+.after-item3 {
+    width: 58.4px;
+}
+
+.after-item4 {
+    width: 99.2px;
+}
+
+.after-item5 {
+    width: 136px;
+}
+
+.after-item6 {
+    width: 145.6px;
+}
+
+.after-item7 {
+    width: 97px;
+}
+
+.after-item8 {
+    width: 84.8px;
+}
+
+.after-item9 {
+    width: 82.4px;
+}
+
+.after-item10 {
+    width: 120px;
+}
+
+/* body-header */
+
+.slider {
+    width: 800px;
+    height: 300px;
+    margin: 10px 12px 0 159.6px;
+    overflow: hidden;
+    display: flex;
+}
+
+.slider figure {
+    position: relative;
+    width: 800%;
+    height: 100%;
+    font-size: 0;
+    /* text-align: left; */
+    /* margin: 0; */
+    /* left: 0; */
+    animation: 40s run infinite;
+}
+
+.slider img {
+    /* width: 800px; */
+    width: 12.5%;
+    height: 100%;
+}
+
+@keyframes run {
+    0% { left: 0;}
+    12.5% { left: 0;}
+    14.6% { left: -100%;}
+    25% { left: -100%;}
+    27.1% { left: -200%;}
+    37.5% { left: -200%;}
+    39.6% { left: -300%;}
+    50% { left: -300%;}
+    52.1% { left: -400%;}
+    62.5% { left: -400%;}
+    64.6% { left: -500%;}
+    75% { left: -500%;}
+    77.1% { left: -600%;}
+    87.5% { left: -600%;}
+    89.6% { left: -700%;}
+    98% { left: -700%;}
+    100% { left: 0;}
+}
+
+/* information */
+
+.inf {
+    width: 790px;
+    /* display: flex; */
+    overflow: hidden;
+    margin-left: 159.6px;
+}
+
+.information {
+    display: flex;
+    /* position: relative; */
+    width: 161.5%;
+    height: 55px;
+    /* overflow: hidden; */
+    /* margin-left: 159.6px; */
+}
+
+/* .information h3 {
+    width: 154.4px;
+    height: 54.4px;
+    font-size: 13px;
+    line-height: 1.3;
+    margin: 0 5px;
+    text-align: center;
+} */
+
+.information p {
+    width: 154.4px;
+    height: 54.4px;
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 0 2px;
+    text-align: center;
+    font-weight: 400;
+    /* animation: 40s infor infinite; */
+}
+
+@keyframes infor {
+    
+}
+
+
+
+
+
+
