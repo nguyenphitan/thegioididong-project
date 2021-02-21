@@ -27,6 +27,11 @@ button {
     background-color: black;
 }
 
+.tan {
+    position: relative;
+    width: 100%;
+}
+
 /* HEADER */
 
 .header {
@@ -183,7 +188,7 @@ button {
     text-align: center;
     line-height: 32px;
     color: #fff;
-    margin: 0 15px;
+    margin: 0 1px;
 }
 
 .other-item:hover {
@@ -194,7 +199,7 @@ button {
 .item1 {
     width: 58.725px;
     height: 30px;
-    padding: 6px 10px 0;
+    padding: 6px 21px 0;
     /* border-left: 1px solid #232323; */
     line-height: 1.0;
 }
@@ -202,14 +207,14 @@ button {
 .item2 {
     width: 41.362px;
     height: 36px;
-    padding: 0 10px;
+    padding: 0 21px;
     /* border-left: 1px solid #232323; */
 }
 
 .item3 {
     width: 56.712px;
     height: 36px;
-    padding: 0 10px;
+    padding: 0 21px;
     /* border-left: 1px solid #232323; */
 }
 
@@ -294,7 +299,7 @@ button {
     width: 120px;
 }
 
-/* body-header */
+/* slider */
 
 .slider {
     width: 800px;
@@ -354,9 +359,10 @@ button {
     display: flex;
     /* position: relative; */
     width: 161.5%;
-    height: 55px;
+    height: 54.4px;
     /* overflow: hidden; */
     /* margin-left: 159.6px; */
+    /* border-bottom: 0.5px solid #999; */
 }
 
 /* .information h3 {
@@ -373,18 +379,78 @@ button {
     height: 54.4px;
     font-size: 14px;
     line-height: 1.3;
-    margin: 0 2px;
+    margin: 9px 2px;
     text-align: center;
     font-weight: 400;
     /* animation: 40s infor infinite; */
+    border-right: 0.5px solid #999;
 }
 
-@keyframes infor {
-    
+/* news */
+
+.news {
+    width: 33.2%;
+    height: 354px;
+    /* overflow: hidden; */
+    float: right;
+    position: absolute;
+    left: calc(159.6px + 12px + 800px);
+    top: 90px;
 }
 
+.news figure {
+    background: linear-gradient(90deg, rgb(197, 35, 35), rgb(5, 146, 5));
+    width: 398.4px;
+}
 
+.news h2 {
+    height: 25px;
+    width: 309.962px;
+    padding: 10px 20px 10px 10px;
+}
 
+.news h2 a {
+    color: #fdd504;
+}
 
+.news ul {
+    width: 398.4px;
+    border-bottom: 1px solid #ededed;
+    padding: 10px 10px 5px 10px;
+    position: relative;
+}
 
+.news li a {
+    display: flex;
+    /* overflow: hidden; */
+}
+
+.news ul li a img {
+    width: 100px;
+    height: 57px;
+    margin-right: 10px;
+}
+
+.news li a h3 {
+    height: 36px;
+    font-size: 16px;
+    overflow: hidden;
+    line-height: 1.1em;
+    color: #333;
+    margin: 0 0 5px 0;
+}
+
+.news li a span {
+    float: left;
+    font-size: 14px;
+    margin-right: 10px;
+    color: #999;
+    position: absolute;
+    bottom: 5px;
+    left: 120px;
+}
+
+.img-news a img {
+    margin-bottom: 5px;
+}
 
