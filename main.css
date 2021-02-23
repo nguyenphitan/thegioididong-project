@@ -559,7 +559,7 @@ button {
 .phone-item .item {
     display: flex;
     position: relative;
-    width: 400.5%;
+    width: 400%;
     height: 412px;
     background-color: #fff;
     margin-bottom: 17px;
@@ -597,7 +597,7 @@ button {
     100% { left: 0;}
 }
 
-.phone-item .installment {
+.installment {
     width: 56.462px;
     height: 18px;
     padding: 0 5px;
@@ -628,7 +628,7 @@ button {
     color: #c11027;
 }
 
-.phone-item .price {
+.price {
     width: 219px;
     height: 18.775px;
     margin: 5px 10px 0 10px;
@@ -688,3 +688,133 @@ button {
     margin-top: 33px;
 }
 
+/* outstanding phone */
+
+.outstanding-phone {
+    margin: 15px 159.6px 0 159.6px;
+    position: relative;
+    width: 1220px;
+}
+
+.outstanding-phone .outstanding-name {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    /* color: #fff; */
+}
+
+.outstanding-phone .outstanding-name a {
+    color: #fff;
+    padding: 15px 7px 14px 7px;
+}
+
+/* item 1 */
+
+.outstanding-phone-item1 {
+    margin: -3px 159.6px 0 159.6px;
+    display: flex;
+    width: 1215px;
+    /* width: 100%; */
+    height: 314.35px;
+    border-top: 1px solid #eee;
+    /* flex: 1 100%; */
+    /* flex-flow: row wrap; */
+    background-color: #fff;
+}
+
+.outstanding-phone-item1 li {
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.installment-out {
+    width: 56.462px;
+    height: 18px;
+    padding: 0 5px;
+    margin: 0px 10px 5px 10px;
+    background-color: #fbda00;
+    color: #333;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.outstanding-phone-item1 h3 {
+    width: 219px;
+    height: 17.6px;
+    margin: 0 10px;
+    color: #333;
+    line-height: 1.3em;
+    font-size: 16px;
+}
+
+.outstanding-phone-item1 .item {
+    width: 239px;
+    height: 296.975px;
+    padding: 10px 0;
+}
+
+.outstanding-phone-item1 .img-small {
+    margin: 15px 29.5px;
+
+}
+
+/* item 2 */
+
+.outstanding-phone-item2 {
+    margin: 0 159.6px 15px 159.6px;
+    display: flex;
+    width: 1215px;
+    /* width: 100%; */
+    height: 327.35px;
+    /* border-top: 1px solid #eee; */
+    /* flex: 1 100%; */
+    /* flex-flow: row wrap; */
+    background-color: #fff;
+}
+
+.outstanding-phone-item2 li {
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.installment-out {
+    width: 56.462px;
+    height: 18px;
+    padding: 0 5px;
+    margin: 0px 10px 5px 10px;
+    background-color: #fbda00;
+    color: #333;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.outstanding-phone-item2 h3 {
+    width: 219px;
+    height: 17.6px;
+    margin: 0 10px;
+    color: #333;
+    line-height: 1.3em;
+    font-size: 16px;
+}
+
+.outstanding-phone-item2 .item {
+    width: 239px;
+    height: 296.975px;
+    padding: 10px 0;
+}
+
+.outstanding-phone-item2 .img-small {
+    margin: 15px 29.5px;
+
+}
+
+/* vote uppdate */
+
+.vote .star {
+    margin: 5px 0 0 10px;
+}
+
+.vote .star span {
+    font-size: 14px;
+    color: #8f8f8f;
+}
