@@ -10,6 +10,10 @@ ul {
     list-style: none;
 }
 
+li h3:hover{
+    color: #50a0de;
+}
+
 a {
     text-decoration: none;
 }
@@ -31,6 +35,49 @@ button {
     position: relative;
     width: 100%;
     background-image: url(https://www.thegioididong.com/Content/newYear2020/bg-top-v2.png);
+}
+
+h6 {        /* Online giá rẻ */
+    width: 219px;
+    height: 17.6px;
+    margin: 5px 10px 0 10px;
+    color: #c11027;
+}
+
+.price {
+    width: 219px;
+    height: 18.775px;
+    margin: 5px 10px 0 10px;
+    color: #c11027;
+}
+
+
+/* installment */
+
+.installment-out {
+    width: 56.462px;
+    height: 18px;
+    padding: 0 5px;
+    margin: 0px 10px 5px 10px;
+    background-color: #fbda00;
+    color: #333;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+/* vote uppdate */
+
+.vote .star {
+    margin: 8px 0 0 10px;
+}
+
+.vote .star img {
+    margin: 0;
+}
+
+.vote .star span {
+    font-size: 14px;
+    color: #8f8f8f;
 }
 
 /* HEADER */
@@ -621,20 +668,6 @@ button {
     font-size: 16px;
 }
 
-.phone-item h6 {
-    width: 219px;
-    height: 17.6px;
-    margin: 5px 10px 0 10px;
-    color: #c11027;
-}
-
-.price {
-    width: 219px;
-    height: 18.775px;
-    margin: 5px 10px 0 10px;
-    color: #c11027;
-}
-
 .phone-item .price b {
     width: 77.263px;
     height: 14.4px;
@@ -688,6 +721,62 @@ button {
     margin-top: 33px;
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* OUTSTANDING GLOBAL UPDATE */
+
+
+/* oustanding name */
+
+.outstanding-name {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.name-item {
+    color: #fff;
+    margin: 15px 7px 14px 7px;
+}
+
+/* item update */
+
+.outstanding-phone-item1 li, .outstanding-phone-item2 li, .outstanding-laptop-item li, .outstanding-tablet-item li {
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.outstanding-phone-item1 .item, .outstanding-phone-item2 .item, .outstanding-laptop-item .item, .outstanding-tablet-item .item {
+    width: 239px;
+    height: 296.975px;
+    padding: 10px 0;
+}
+
+.outstanding-phone-item1 h3, .outstanding-phone-item2 h3, .outstanding-laptop-item h3, .outstanding-tablet-item h3 {
+    width: 219px;
+    height: 17.6px;
+    margin: 0 10px;
+    color: #333;
+    line-height: 1.3em;
+    font-size: 16px;
+}
+
+.img-small {
+    margin: 15px 29.5px;
+}
+
+.img-small:hover {
+    margin-top: 5px;
+}
+
+/* ------------------------------------------------------------------------ */
+
+
 /* outstanding phone */
 
 .outstanding-phone {
@@ -696,66 +785,15 @@ button {
     width: 1220px;
 }
 
-.outstanding-phone .outstanding-name {
-    position: absolute;
-    top: 10px;
-    right: 0;
-    /* color: #fff; */
-}
-
-.outstanding-phone .outstanding-name a {
-    color: #fff;
-    padding: 15px 7px 14px 7px;
-}
-
 /* item 1 */
 
 .outstanding-phone-item1 {
     margin: -3px 159.6px 0 159.6px;
     display: flex;
     width: 1215px;
-    /* width: 100%; */
     height: 314.35px;
     border-top: 1px solid #eee;
-    /* flex: 1 100%; */
-    /* flex-flow: row wrap; */
     background-color: #fff;
-}
-
-.outstanding-phone-item1 .item {
-    width: 239px;
-    height: 296.975px;
-    padding: 10px 0;
-}
-
-.outstanding-phone-item1 li {
-    border-right: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-}
-
-.installment-out {
-    width: 56.462px;
-    height: 18px;
-    padding: 0 5px;
-    margin: 0px 10px 5px 10px;
-    background-color: #fbda00;
-    color: #333;
-    border-radius: 2px;
-    font-size: 14px;
-}
-
-.outstanding-phone-item1 h3 {
-    width: 219px;
-    height: 17.6px;
-    margin: 0 10px;
-    color: #333;
-    line-height: 1.3em;
-    font-size: 16px;
-}
-
-.outstanding-phone-item1 .img-small {
-    margin: 15px 29.5px;
-
 }
 
 /* item 2 */
@@ -764,59 +802,8 @@ button {
     margin: 0 159.6px 15px 159.6px;
     display: flex;
     width: 1215px;
-    /* width: 100%; */
-    height: 327.35px;
-    /* border-top: 1px solid #eee; */
-    /* flex: 1 100%; */
-    /* flex-flow: row wrap; */
+    height: 330.35px;
     background-color: #fff;
-}
-
-.outstanding-phone-item2 li {
-    border-right: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-}
-
-.installment-out {
-    width: 56.462px;
-    height: 18px;
-    padding: 0 5px;
-    margin: 0px 10px 5px 10px;
-    background-color: #fbda00;
-    color: #333;
-    border-radius: 2px;
-    font-size: 14px;
-}
-
-.outstanding-phone-item2 h3 {
-    width: 219px;
-    height: 17.6px;
-    margin: 0 10px;
-    color: #333;
-    line-height: 1.3em;
-    font-size: 16px;
-}
-
-.outstanding-phone-item2 .item {
-    width: 239px;
-    height: 296.975px;
-    padding: 10px 0;
-}
-
-.outstanding-phone-item2 .img-small {
-    margin: 15px 29.5px;
-
-}
-
-/* vote uppdate */
-
-.vote .star {
-    margin: 5px 0 0 10px;
-}
-
-.vote .star span {
-    font-size: 14px;
-    color: #8f8f8f;
 }
 
 /* outstanding laptop */
@@ -826,44 +813,84 @@ button {
     position: relative;
 }
 
-.outstanding-laptop .outstanding-name {
-    position: absolute;
-    top: 10px;
-    right: 0;
-}
-
-.outstanding-laptop .outstanding-name .name-item {
-    color: #fff;
-    margin: 15px 7px 14px 7px;
-}
-
 /* laptop item */
 
 .outstanding-laptop-item {
     margin: -3px 159.6px 15px 159.6px;
     width: 1215px;
-    height: 390px;
+    height: 380px;
     background-color: #fff;
     display: flex;
     border-top: 1px solid #eee;
-}
-
-.outstanding-laptop-item .item {
-    width: 239px;
-    height: 296.975px;
-    padding: 10px 0;
 }
 
 .outstanding-laptop-item .img-small {
     margin: 45px 29.5px;
 }
 
-.outstanding-laptop-item li {
-    border-right: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+.outstanding-laptop-item .img-small:hover {
+    margin-top: 30px;
 }
 
-.outstanding-laptop-item h3 {
+.outstanding-laptop-item .price {
+    margin-top: 30px;
+}
+
+/* outstanding tablet */
+
+.outstanding-tablet {
+    margin: 0 159.6px;
+    position: relative;
+}
+
+/* tablet item */
+
+.outstanding-tablet-item {
+    width: 1215px;
+    height: 350px;
+    display: flex;
+    background-color: #fff;
+    margin: -3px 159.6px 15px 159.6px;
+    border-top: 1px solid #eee;
+}
+
+.outstanding-tablet-item .price {
+    margin-top: 15px;
+}
+
+/* Phụ kiện giá rẻ */
+/* Phụ kiện chính hãng */
+/* Đồng hồ thông minh */
+
+.pk-cheap, .pk-real, .smart-watch, .fashion-watch, .old-machine {
+    margin: 0 159.6px;
+    position: relative;
+}
+
+.pk-cheap-item, .pk-real-item, .smart-watch-item, .fashion-watch-item, .old-machine-item {
+    width: 1215px;
+    height: 355.35px;
+    display: flex;
+    background-color: #fff;
+    margin: -3px 159.6px 15px 159.6px;
+    border-top: 1px solid #eee;
+}
+
+.pk-cheap-item a, .pk-real-item a, .smart-watch-item a, .fashion-watch-item a, .old-machine-item a {
+    width: 240px;
+    height: 320.75px;
+    padding: 10px 0;
+}
+
+.pk-cheap-item img, .pk-real-item img, .smart-watch-item img, .fashion-watch-item img, .old-machine-item img {
+    margin: 15px 31.5px;
+}
+
+.pk-cheap-item img:hover, .pk-real-item img:hover, .smart-watch-item img:hover, .fashion-watch-item img:hover, .old-machine-item img:hover {
+    margin-top: 5px;
+}
+
+.pk-cheap-item h3, .pk-real-item h3, .smart-watch-item h3, .fashion-watch-item h3, .old-machine-item h3 {
     width: 219px;
     height: 17.6px;
     margin: 0 10px;
@@ -872,6 +899,6 @@ button {
     font-size: 16px;
 }
 
-.outstanding-laptop-item .price {
-    margin-top: 30px;
+.pk-cheap-item h6, .pk-real-item h6, .smart-watch-item h6, .fashion-watch-item h6, .old-machine-item h6 {
+    margin-top: 10px;
 }
