@@ -926,6 +926,11 @@ footer {
     margin-right: 25px;
 }
 
+.list-item .blue li:hover {
+    cursor: pointer;
+    color: #666666;
+}
+
 .list-item .blue {
     color: #288ad6;
 }
@@ -954,7 +959,7 @@ footer {
 .fb-ytb .youtube {
     margin: 9px 2px;
     color: #288ad6;
-}
+}g
 
 .end {
     width: 100%;
@@ -969,4 +974,8 @@ footer {
     color: #999;
     text-align: center;
     font-size: 11px;
+}
+
+.end .chinh-sach:hover {
+    cursor: pointer;
 }
