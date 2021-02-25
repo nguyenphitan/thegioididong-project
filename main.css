@@ -170,7 +170,7 @@ h6 {        /* Online giá rẻ */
 
 .img-cart {
     /* margin-right: 5px; */
-    margin: 5px 5px;
+    margin: 1px 5px;
     text-align: center;
 }
 
@@ -901,4 +901,72 @@ h6 {        /* Online giá rẻ */
 
 .pk-cheap-item h6, .pk-real-item h6, .smart-watch-item h6, .fashion-watch-item h6, .old-machine-item h6 {
     margin-top: 10px;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 247.4px;
+    background-color: #fff;
+}
+
+.list-item {
+    display: flex;
+    width: 1215px;
+    height: 162.2px;
+    margin: 0 159.6px;
+}
+
+.list-item ul {
+    width: 336px;
+    height: 149px;
+    padding: 15px 0;
+    margin-right: 25px;
+}
+
+.list-item .blue {
+    color: #288ad6;
+}
+
+.list-item .gray {
+    color: #666666;
+}
+
+.list-item .gray b {
+    padding: 0 5px;
+}
+
+.list-item ul li {
+    width: 336px;
+    height: 24.8px;
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.fb-ytb .facebook {
+    border-right: 1px solid #e9e9e9;
+    margin: 9px 2px;
+    color: #288ad6;
+}
+
+.fb-ytb .youtube {
+    margin: 9px 2px;
+    color: #288ad6;
+}
+
+.end {
+    width: 100%;
+    min-width: 980px;
+    background-color: #f8f8f8;
+    padding: 30px 0 10px 0;
+}
+
+.end p {
+    width: 100%;
+    height: 26px;
+    color: #999;
+    text-align: center;
+    font-size: 11px;
 }
